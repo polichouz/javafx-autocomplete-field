@@ -15,7 +15,7 @@ public interface AutoFillTextBoxFactory<T> {
     /**
      * Keeps the array of String which contains the 
      * words to be matched on typing.
-     * @param data 
+     * @param data bla
      */
     void setData(ObservableList<T> data);
     
@@ -40,7 +40,7 @@ public interface AutoFillTextBoxFactory<T> {
     /**
      * This defines how many max listcell to be visibled in listview when
      * matched words are occured on typing.
-     * @param limit 
+     * @param limit bla
      */
     void setListLimit(int limit);
     
@@ -53,7 +53,7 @@ public interface AutoFillTextBoxFactory<T> {
     /**
      * This sets the AutoFilterMode which can show as filter type
      * rather than searched type if value is true.
-     * @param filter 
+     * @param filter bla
      */
     void setFilterMode(boolean filter);
         

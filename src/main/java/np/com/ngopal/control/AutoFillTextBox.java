@@ -23,7 +23,7 @@ import javafx.scene.control.TextField;
  * </pre>
  * Output:
  * <br>
- * <img src="http://blog.ngopal.com.np/wp-content/uploads/2011/07/screen.png" align="center"/>
+ * <img src="http://blog.ngopal.com.np/wp-content/uploads/2011/07/screen.png" alt="bla">
  * <br>
  *
  *
@@ -50,10 +50,7 @@ public class AutoFillTextBox<T> extends Control implements AutoFillTextBoxFactor
 
     /**
      * Constructor
-     */
-    /* public AutoFillTextBox() {
-     * init();
-     * }
+     * @param data bla
      */
     public AutoFillTextBox(ObservableList<T> data) {
         //this();

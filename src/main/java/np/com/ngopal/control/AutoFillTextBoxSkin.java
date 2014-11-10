@@ -239,7 +239,7 @@ public class AutoFillTextBoxSkin<T> extends SkinBase<AutoFillTextBox<T>>
      * This is the main event handler which handles all the
      * event of the listview and textbox
      *
-     * @param evt
+     * @param evt bla
      ***************************************************** */
     @Override
     public void handle(Event evt) {
@@ -343,9 +343,9 @@ public class AutoFillTextBoxSkin<T> extends SkinBase<AutoFillTextBox<T>>
      * When ever the the rawTextProperty is changed
      * then this listener is activated
      *
-     * @param ov
-     * @param t
-     * @param t1
+     * @param ov bla
+     * @param t bla
+     * @param t1 bla
      *********************************************** */
     @Override
     public void changed(ObservableValue<? extends String> ov, String t, String t1) {
